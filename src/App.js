@@ -18,11 +18,11 @@ const App = () => {
       <img src={img1} alt="img1" className='-z-10  absolute w-screen h-screen overflow-hidden'/>
     </div>
     
-     <Navbar />
-     <Start/>
-     <Quote/>
-     <Mentors/>
-     <Community/>
+    <Navbar />
+    <Start/>
+    <Quote/>
+    <Mentors/>
+    <Community/>
     <Text/>
     <Footer/>
     </>
