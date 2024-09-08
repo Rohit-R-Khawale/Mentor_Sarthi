@@ -1,7 +1,6 @@
 import React from 'react';
 // Import Images
 import img from "../assets/IMG_scroolbar/200.png"
-import img2 from "../assets/IMG_scroolbar/Amsterdam.jpg"
 
 function App() {
   return (

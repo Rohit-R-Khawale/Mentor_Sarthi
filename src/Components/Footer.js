@@ -17,6 +17,7 @@ function App() {
         <div className=" flex max-sm:flex-col gap-8">
           <div className="w-3/4 sm:grid sm:grid-cols-2 max-sm:flex max-sm:flex-col gap-3">
               <div className='h-fit w-fit'>
+                {/* Get Started */}
                 <h2 className="text-2xl font-bold mb-4">GET STARTED</h2>
                 <ul className="list-disc ml-6">
                   <li>For individuals</li>
@@ -27,6 +28,7 @@ function App() {
                   <li>Request Demo</li>
                 </ul>
               </div>
+              {/* platform */}
               <div>
                 <h2 className="text-2xl font-bold mb-4 w-1/3">PLATFORM</h2>
                 <ul className="list-disc ml-6">
@@ -38,6 +40,7 @@ function App() {
                   <li>Calendar Sync</li>
                 </ul>
               </div>
+              {/* Company */}
               <div className=''>
                 <h2 className="text-2xl font-bold mb-4 ">COMPANY</h2>
                 <ul className="list-disc ml-6">
@@ -47,6 +50,7 @@ function App() {
                   <li>IRL Events</li>
                 </ul>
               </div>
+              {/* Resources */}
               <div className=''>
                 <h2 className="text-2xl font-bold mb-4 ">RESOURCES</h2>
                 <ul className="list-disc ml-6">
@@ -59,6 +63,7 @@ function App() {
                 </ul>
               </div>
           </div>
+          {/* Popular Mentors */}
           <div>
             <h2 className="text-2xl font-bold mb-4 w-full">POPULAR MENTORS FOR:</h2>
             <ul className="list-disc ml-6">

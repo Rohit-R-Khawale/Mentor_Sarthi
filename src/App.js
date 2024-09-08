@@ -1,16 +1,15 @@
 import React from 'react'
-import Navbar from "./Components/Navbar"
 import "./index.css"
 // import Components
+import Navbar from "./Components/Navbar"
 import Start from "./Components/start"
 import Quote from './Components/Quote'
 import Mentors from './Components/Mentors'
 import Community from './Components/Community'
 import Text from "./Components/Footbanner"
+import Footer from "./Components/Footer"
 // images imports 
 import img1 from "./assets/IMG_scroolbar/84.jpeg"
-import Footer from "./Components/Footer"
-
 const App = () => {
   return (
     <>
