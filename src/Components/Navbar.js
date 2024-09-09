@@ -16,23 +16,7 @@ const navbar = () => {
         {/* Home */}
         <div className="show-drop-down" id='drop'>
             <p className='hover:text-[#E9CBC1] cursor-pointer pb-4 text-white'>Home</p>
-            {/* Drop Down */}
-            <ol className='drop-down hidden absolute z-50 '>
-                <div className="relative right-14 text-center bg-sky-400 p-2 rounded-md text-black">
-                  {/* item 1 */}
-                  <li className='hover:scale-95 hover:text-[#AE0E02]  cursor-pointer text-sm'>BESPOKE DESIGN</li>
-                  <hr />
-                  {/* item 2 */}
-                  <li className='hover:scale-95 hover:text-[#AE0E02] text-center cursor-pointer text-sm'>CUSTOMIZABLE WEB TEMPLATES</li>
-                  <hr />
-                  {/* item 3 */}
-                  <li className='hover:scale-95 hover:text-[#AE0E02] text-center cursor-pointer text-sm'>SEMI-CUSTOM</li>
-                  <hr />
-                  {/* item 4 */}
-                  <li className='hover:scale-95 hover:text-[#AE0E02] text-center cursor-pointer text-sm'>WEB MAINTENANCE</li>
-                  <hr />
-                </div>
-            </ol>
+            
         </div>
 
         {/* About */}
@@ -52,7 +36,10 @@ const navbar = () => {
                 <ol className='drop-down hidden absolute z-50 text-black'>
                     <div className="relative  text-sm bg-sky-400 p-3 rounded-md">
                       {/* item 1 */}
-                      <li className=' hover:scale-95 hover:text-[#AE0E02] cursor-pointer '>Featurte 1</li><hr />
+                      <li className=' hover:scale-95 hover:text-gray-600 cursor-pointer '>Featurte 1</li><hr />
+                      <li className=' hover:scale-95 hover:text-gray-600 cursor-pointer '>Featurte 2</li><hr />
+                      <li className=' hover:scale-95 hover:text-gray-600 cursor-pointer '>Featurte 3</li><hr />
+                      <li className=' hover:scale-95 hover:text-gray-600 cursor-pointer '>Featurte 4</li><hr />
                       {/* you can add more items */}
                     </div>
                 </ol>
