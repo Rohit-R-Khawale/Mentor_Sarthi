@@ -18,6 +18,7 @@ import { RiOrganizationChart } from "react-icons/ri";
 
 // importing Components
 import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer"
 // images import
 import profileIMG from "../assets/IMG_scroolbar/200.png";
 import Zapire from "../assets/Zapire.webp";
@@ -69,6 +70,7 @@ const MentorProfile = () => {
         <Experience />
         <MyWritten/>
       </div>
+      <Footer/>
     </div>
     // page END
   );
