@@ -21,7 +21,7 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer"
 // images import
 import profileIMG from "../assets/IMG_scroolbar/200.png";
-import Zapire from "../assets/Zapire.webp";
+import Zapire from "../assets/LOGOS/Zapire.webp";
 import zohoLogo from "../assets/LOGOS/zoho-logo.png";
 import ITG from "../assets/LOGOS/itg-logo-512x512 (1).png";
 import smile from "../assets/LOGOS/smile-logo.png"
