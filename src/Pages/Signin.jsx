@@ -86,7 +86,11 @@ const Signin = () => {
 
 
         </div>
-        <p className="w-fit text-xs text-gray-600 font-playWrite self-end">made with ❤️</p>
+        <div className="flex justify-between">
+          <p className="w-fit text-xs text-gray-600">Don't have an Account? <Link to="/signUp" className="hover-underline-animation">SignUp</Link></p>
+          <p className="w-fit text-xs text-gray-600 font-playWrite">made with ❤️</p>
+        </div>
+
       </div>
 
      
