@@ -47,7 +47,7 @@ const MentorProfile = () => {
             {" "}
             Expertise{" "}
           </a>
-          <a href="#toolkit " className="hover-underline-animation">
+          <a href="#toolkit" className="hover-underline-animation">
             Toolkit
           </a>
           <a href="#reviews " className="hover-underline-animation">
@@ -65,8 +65,8 @@ const MentorProfile = () => {
       {/* Bio of the person */}
       <div className="bg-gray-300 pb-12 ">
         <Bio />
-        <Expertise />
-        <Toolkit />
+        <Expertise/>
+        <Toolkit/>
         <Experience />
         <MyWritten/>
       </div>
@@ -245,7 +245,7 @@ const Bio = (props) => {
 const Expertise = () => {
   return (
     <>
-      <div className=" w-3/5 mx-auto bg-white mt-3 p-2 rounded-xl h-fit">
+      <div className=" w-3/5 mx-auto bg-white mt-3 p-2 rounded-xl h-fit" id="expertise">
         <h2 className="text-3xl mb-2 ml-9 font-bold">Expertise</h2>
         <hr />
         {/* Experience cards */}
@@ -315,7 +315,7 @@ const ExpCard = (props) => {
 const Toolkit = () => {
   return (
     <>
-      <div className="w-3/5 mx-auto bg-white mt-3 p-2 rounded-xl h-fit mb-12">
+      <div className="w-3/5 mx-auto bg-white mt-3 p-2 rounded-xl h-fit mb-12" id="toolkit">
         <h2 className="text-3xl mb-2 ml-9 font-bold">Tool Kit</h2>
         <hr />
         {/* Tool Cards */}

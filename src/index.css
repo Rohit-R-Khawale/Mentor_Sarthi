@@ -1,6 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Fonts Import  */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+/* font-family: "Playwrite CU", cursive; */
+.font-playWrite{
+  font-family: "Playwrite CU", cursive;
+}
+
 
 :hover.show-drop-down{
     .drop-down  {
@@ -29,7 +36,7 @@
     background-size: cover;
   }
 
-  /* uNDERLINE TRANSLATE IN  */
+  /* uNDERLINE TRANSLATE IN Animation  */
   .hover-underline-animation {
     display: inline-block;
     position: relative;
@@ -54,8 +61,9 @@
     transform-origin: bottom left;
   }
 
-
+/*Custom Grid for Mentor Profile Page */
   .grd{
     display: grid;
     grid-template-columns: 1fr 6fr;
   }
+
